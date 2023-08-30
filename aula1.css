@@ -1,0 +1,18 @@
+body{
+    padding: 2em;
+    height: 90vh;
+    background-color: rgb(242, 236, 229);
+    font-family: Montserrat, sans-serif;
+}
+button{
+    height: 3em;
+    width: 6em;
+    color: black;
+    background-color: burlywood;
+}
+.roxo{
+    color: mediumpurple;
+}
+.verde{
+    color: mediumseagreen;
+}
