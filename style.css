@@ -12,6 +12,7 @@ body{
 }
 main{
     display: flex;
+    flex-wrap: wrap;
     gap: 3em;
 }
 button {

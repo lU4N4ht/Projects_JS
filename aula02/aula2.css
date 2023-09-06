@@ -67,3 +67,6 @@
 .cursor{
     cursor: default;
 }
+.display{
+    display: none;
+}

@@ -44,6 +44,7 @@ function mudarLugar() {
     } else {
         forma6.classList.toggle('transparente')
         forma6.classList.toggle('cursor')
+        forma6.classList.toggle('display')
         alert("Quero ver você me cutucar agora!");
     }
 }

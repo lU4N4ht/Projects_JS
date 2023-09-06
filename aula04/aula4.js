@@ -140,8 +140,8 @@ function mostrarNumerosPrimos() {
     container.replaceChildren('')
 
     if (numeros != '') {
-        for (let contador = 0; contador < ultimoIndice; contador++) {
-            if (numeros[contador] % 1 == 0 && numeros[contador] % numeros[contador] == 0) {
+        for (let contador = 2; contador <= Math.sqrt(ultimoIndice); contador++) {
+            if (numeros[contador] % contador == 0) {
             const novoSpan = document.createElement('span')
             novoSpan.textContent = numeros[contador] 
             container.appendChild(novoSpan)
