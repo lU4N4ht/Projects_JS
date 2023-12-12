@@ -20,7 +20,7 @@ const funcionarios = [
     {
         nome: 'Ana Maria',
         cargo: 'BackEnd',
-        imagem: 'maria.jpg'
+        imagem: 'ana.jpg'
     }
 ]
 function mostrarCards (funcionario){
@@ -28,7 +28,7 @@ function mostrarCards (funcionario){
     const card = document.createElement('div')
     card.classList.add('card')
     const imagem = document.createElement('img')
-    imagem.src = `./img/${funcionario.imagem}`
+    imagem.src = `../img/${funcionario.imagem}`
     imagem.alt = funcionario.nome
     const cardDescription = document.createElement('div')
     cardDescription.classList.add('card-description')
